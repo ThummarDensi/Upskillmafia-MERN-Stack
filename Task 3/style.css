@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100vw; 
+    overflow: hidden; 
+}
+
+.image-section {
+    width: 50vw; 
+    margin: 10vh auto; 
+    text-align: center; 
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    display: block;
+    width: 100%; 
+    padding: 1.5vh; 
+    background: linear-gradient(45deg, #ffb347, #32cd32); 
+    border: none;
+    color: white;
+    font-size: 2vh; 
+    cursor: pointer;
+    margin-bottom: 2vh;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: linear-gradient(45deg, #32cd32, #ffb347);
+}

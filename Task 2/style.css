@@ -1,0 +1,41 @@
+body{
+    background-color: #e88316;
+}
+
+.head{
+    color: darkblue;
+}
+
+#bglim{
+    background-color: darkseagreen; 
+    font-size:xx-large 
+}
+
+.red{
+    color: red;
+}
+
+.size{
+    font-size: xx-large;
+    color: black;
+}
+#para{
+    color: green;
+}
+
+ul li:nth-child(1) a{
+    background-color: yellow;
+    color: green;
+} 
+
+ul li:nth-child(2) a{
+    background-color: rgba(25, 25, 217, 0.477);
+    color: blue;
+} 
+Ol li:nth-child(2){
+    color: blue;
+}
+
+Ol li:nth-child(3){
+    color: red;
+}
